@@ -10,6 +10,17 @@
 		3AB34B8B242CA62E00DF24D0 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB34B81242CA62E00DF24D0 /* Freddy.framework */; };
 		3AB34B90242CA62E00DF24D0 /* FreddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34B8F242CA62E00DF24D0 /* FreddyTests.swift */; };
 		3AB34B92242CA62E00DF24D0 /* Freddy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB34B84242CA62E00DF24D0 /* Freddy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AB34BA6242CA84200DF24D0 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34B9B242CA84100DF24D0 /* JSONDecodable.swift */; };
+		3AB34BA7242CA84200DF24D0 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34B9C242CA84100DF24D0 /* JSON.swift */; };
+		3AB34BA8242CA84200DF24D0 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34B9D242CA84100DF24D0 /* IntExtensions.swift */; };
+		3AB34BA9242CA84200DF24D0 /* JSONOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34B9E242CA84100DF24D0 /* JSONOptional.swift */; };
+		3AB34BAA242CA84200DF24D0 /* JSONEncodingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34B9F242CA84100DF24D0 /* JSONEncodingDetector.swift */; };
+		3AB34BAB242CA84200DF24D0 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34BA0242CA84100DF24D0 /* JSONParser.swift */; };
+		3AB34BAC242CA84200DF24D0 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34BA1242CA84200DF24D0 /* JSONParsing.swift */; };
+		3AB34BAD242CA84200DF24D0 /* JSONSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34BA2242CA84200DF24D0 /* JSONSerializing.swift */; };
+		3AB34BAE242CA84200DF24D0 /* JSONEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34BA3242CA84200DF24D0 /* JSONEncodable.swift */; };
+		3AB34BAF242CA84200DF24D0 /* JSONSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34BA4242CA84200DF24D0 /* JSONSubscripting.swift */; };
+		3AB34BB0242CA84200DF24D0 /* JSONLiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB34BA5242CA84200DF24D0 /* JSONLiteralConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,17 @@
 		3AB34B8A242CA62E00DF24D0 /* FreddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB34B8F242CA62E00DF24D0 /* FreddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreddyTests.swift; sourceTree = "<group>"; };
 		3AB34B91242CA62E00DF24D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB34B9B242CA84100DF24D0 /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
+		3AB34B9C242CA84100DF24D0 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		3AB34B9D242CA84100DF24D0 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		3AB34B9E242CA84100DF24D0 /* JSONOptional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONOptional.swift; sourceTree = "<group>"; };
+		3AB34B9F242CA84100DF24D0 /* JSONEncodingDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingDetector.swift; sourceTree = "<group>"; };
+		3AB34BA0242CA84100DF24D0 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		3AB34BA1242CA84200DF24D0 /* JSONParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
+		3AB34BA2242CA84200DF24D0 /* JSONSerializing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializing.swift; sourceTree = "<group>"; };
+		3AB34BA3242CA84200DF24D0 /* JSONEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodable.swift; sourceTree = "<group>"; };
+		3AB34BA4242CA84200DF24D0 /* JSONSubscripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSubscripting.swift; sourceTree = "<group>"; };
+		3AB34BA5242CA84200DF24D0 /* JSONLiteralConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONLiteralConvertible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +94,17 @@
 			isa = PBXGroup;
 			children = (
 				3AB34B84242CA62E00DF24D0 /* Freddy.h */,
+				3AB34B9D242CA84100DF24D0 /* IntExtensions.swift */,
+				3AB34B9C242CA84100DF24D0 /* JSON.swift */,
+				3AB34B9B242CA84100DF24D0 /* JSONDecodable.swift */,
+				3AB34BA3242CA84200DF24D0 /* JSONEncodable.swift */,
+				3AB34B9F242CA84100DF24D0 /* JSONEncodingDetector.swift */,
+				3AB34BA5242CA84200DF24D0 /* JSONLiteralConvertible.swift */,
+				3AB34B9E242CA84100DF24D0 /* JSONOptional.swift */,
+				3AB34BA0242CA84100DF24D0 /* JSONParser.swift */,
+				3AB34BA1242CA84200DF24D0 /* JSONParsing.swift */,
+				3AB34BA2242CA84200DF24D0 /* JSONSerializing.swift */,
+				3AB34BA4242CA84200DF24D0 /* JSONSubscripting.swift */,
 				3AB34B85242CA62E00DF24D0 /* Info.plist */,
 			);
 			path = Freddy;
@@ -148,6 +181,7 @@
 				TargetAttributes = {
 					3AB34B80242CA62E00DF24D0 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					3AB34B89242CA62E00DF24D0 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -195,6 +229,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB34BA8242CA84200DF24D0 /* IntExtensions.swift in Sources */,
+				3AB34BA9242CA84200DF24D0 /* JSONOptional.swift in Sources */,
+				3AB34BAB242CA84200DF24D0 /* JSONParser.swift in Sources */,
+				3AB34BAD242CA84200DF24D0 /* JSONSerializing.swift in Sources */,
+				3AB34BB0242CA84200DF24D0 /* JSONLiteralConvertible.swift in Sources */,
+				3AB34BA6242CA84200DF24D0 /* JSONDecodable.swift in Sources */,
+				3AB34BA7242CA84200DF24D0 /* JSON.swift in Sources */,
+				3AB34BAA242CA84200DF24D0 /* JSONEncodingDetector.swift in Sources */,
+				3AB34BAC242CA84200DF24D0 /* JSONParsing.swift in Sources */,
+				3AB34BAF242CA84200DF24D0 /* JSONSubscripting.swift in Sources */,
+				3AB34BAE242CA84200DF24D0 /* JSONEncodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -325,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -340,6 +385,7 @@
 		3AB34B96242CA62E00DF24D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 29YN73Q226;
@@ -348,6 +394,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Freddy/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.discoverfinancial.Freddy;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +412,7 @@
 		3AB34B97242CA62E00DF24D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 29YN73Q226;
@@ -372,6 +421,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Freddy/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,6 +438,7 @@
 		3AB34B99242CA62E00DF24D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29YN73Q226;
 				INFOPLIST_FILE = FreddyTests/Info.plist;
@@ -406,6 +457,7 @@
 		3AB34B9A242CA62E00DF24D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29YN73Q226;
 				INFOPLIST_FILE = FreddyTests/Info.plist;
